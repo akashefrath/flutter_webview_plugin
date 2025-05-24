@@ -35,7 +35,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 28
-
+    namespace = "com.flutter_webview_plugin"
     defaultConfig {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         // NOTE(jeffmikels): When targetSdkVersion or minSdkVersion is not set or < 4, gradle adds 
